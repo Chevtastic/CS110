@@ -23,10 +23,13 @@ print(f"{jobTitle.title()}")
 print(f"ID: {idNum}\n")
 
 print(f"{email.lower()}")
+
+#standard phone number question
 #print(f"{phNum}\n")
 
-#Phone number formatting to add parenthesis and dash 
-print(f"({phNum[:3]}) {phNum[3:7]}-{phNum[7:]}\n")
+#Stretch Phone number formatting to add parenthesis and dash 
+print(f"({phNum[:3]}) {phNum[3:6]}-{phNum[6:]}\n")
+
 
 print(f"{'Hair: ' + hair.capitalize():<25} {'Eyes: ' + eyes.capitalize()}")
 print(f"{'Month: ' + month.capitalize():<25} {'Training: ' + training.capitalize()}")
